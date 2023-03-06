@@ -139,8 +139,88 @@
                                     Áður en laser skurður er framkvæmdur þarf að stilla inn kerfið til þess að offsetta útlínur í Fusion. Þetta er gert til þess að fá sem besta samsettningu. Kerf próf er afar einfalt í framkvæmd og má lesa um hvernig það er gert á vefsíðunni hans Birkis þar sem að við framkvæmdum prófið saman. Kerfið í acryl efninu var 0.19 mm og því var unnið með það.
                                     </p>
                                     <ul class="actions fit small">
-								    <li><a href="Vefsíðan hér" class="button primary fit small">Vefsíðan hans Birkis</a></li>
+								    <li><a href="https://birkirerlends.github.io/webpage/verk2.html" class="button primary fit small">Vefsíðan hans Birkis</a></li>
                                     </ul>
+                                    <header>
+                                    <h1> Stilla inn Kerf</h1>
+                                    </header>
+                                    <p>
+                                    Ein besta leiðinn til þess að stilla in Kerf í Fusion er að offsetta allt í einu. Það er gert með því að fara í "Manufacture" inn í Fusion. Búa til nýtt Setup. Velja operation "Cutting" og velja modelið. Þegar það er komið þá þarf að búa til 2D model. Þá þarf að velja tool og við búum til laser skera sem er með okkar kerfi. Sjá stillingar hér fyrir neðan. Í 2D profile þá þarf að fara í geometry og velja face contours og velja alla íhluti. Þegar það er komið þá býr Fusion til toolpath fyrir laser skurðinn út frá kerfinu. Þá þarf að exporta úr Fusion og það er gert með NC Program og má sjá stillingar fyrir það hér fyrir neðan.
+                                    </p>
+                                    <div class="row">
+                                    <div class="col-4 col-12-medium">
+				                        <h3>Manufacture</h3>
+								        <p>
+                                        <span class="image main"><img src="images/Manufacture.png" alt="" /></span>
+                                        Velja "Manufacture" í staðinn fyrir Design
+                                        </p>
+								    </div>
+								    <div class="col-4 col-12-medium">
+								        <h3>Setup</h3>
+								        <p>
+                                        <span class="image main"><img src="images/Setup.png" alt="" /></span>
+                                        Búa til nýtt Setup
+                                        </p>
+								    </div>
+								    <div class="col-4 col-12-medium">
+								        <h3>2D Profile</h3>
+								        <p>
+                                        <span class="image main"><img src="images/2d.png" alt="" /></span>
+                                        Búa til 2D Profile fyrir modelið.
+                                        </p>
+									</div>
+								    </div>
+                                    <div class="row">
+                                    <div class="col-4 col-12-medium">
+				                        <h3>New Tool</h3>
+								        <p>
+                                        <span class="image main"><img src="images/newtool.png" alt="" /></span>
+                                        Búa til nýtt Tool.
+                                        </p>
+								    </div>
+								    <div class="col-4 col-12-medium">
+								        <h3>Skýra tólið</h3>
+								        <p>
+                                        <span class="image main"><img src="images/skyra.png" alt="" /></span>
+                                        </p>
+								    </div>
+								    <div class="col-4 col-12-medium">
+								        <h3>Setja inn Kerf</h3>
+								        <p>
+                                        <span class="image main"><img src="images/kerf.png" alt="" /></span>
+                                        Hér þarf að setja inn Kerf eftir kerf prófinu. Stærðin á hausnum á laserskeranum skiptir ekki máli.
+                                        </p>
+                                         <div class="row">
+                                        </div>
+									</div>
+								    </div>
+                                    <div class="row">
+                                    <div class="col-4 col-12-medium">
+				                        <h3>Geometry</h3>
+								        <p>
+                                        <span class="image main"><img src="images/facecontours.png" alt="" /></span>
+                                        Velja geometry flipan, velja þar Face Countours og velja hlið á modelinu.
+                                        </p>
+								    </div>
+								    <div class="col-4 col-12-medium">
+                                        <h3>NC Program</h3>
+								        <p>
+                                        <span class="image main"><img src="images/ncprogram.png" alt="" /></span>
+                                        </p>
+								    </div>
+								    <div class="col-4 col-12-medium">
+                                        <h3>Stillingar fyrir NC Program</h3>
+								        <p>
+                                        <span class="image main"><img src="images/stillingarnc.png" alt="" /></span>
+                                            Passa hér að velja rétta möppu fyrir .dxf fileinn.
+                                        </p>
+                                         <div class="row">
+                                        </div>
+									</div>
+								    </div>
+                                    <p>
+                                    
+                                    </p>
 								</div>
 							</section>
 					</div>
