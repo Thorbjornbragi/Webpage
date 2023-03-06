@@ -74,7 +74,7 @@
                                         </div>
                                     <header> 
                                         <h1>Laser skurður</h1>
-                                        <h2> 1. Hönnun</h2>
+                                        <h2>1. Hönnun</h2>
                                     </header>
                                     <p>
                                     Fyrst þarf að ákveða hvað skal hanna, ég ákvað að gera vínflöskustand sem að heldur 4 vínflöskum. Gott er að vera vel undirbúinn og sækja allan þann hugbúnað sem þarf til þess að vinna verkefnið.
@@ -133,7 +133,7 @@
 									</div>
 								</div>
                                 <header>
-                                <h2> Kerf Próf</h2>
+                                <h2>2. Kerf Próf</h2>
                                 </header>
                                     <p>
                                     Áður en laser skurður er framkvæmdur þarf að stilla inn kerfið til þess að offsetta útlínur í Fusion. Þetta er gert til þess að fá sem besta samsettningu. Kerf próf er afar einfalt í framkvæmd og má lesa um hvernig það er gert á vefsíðunni hans Birkis þar sem að við framkvæmdum prófið saman. Kerfið í acryl efninu var 0.19 mm og því var unnið með það.
@@ -142,7 +142,7 @@
 								    <li><a href="https://birkirerlends.github.io/webpage/verk2.html" class="button primary fit small">Vefsíðan hans Birkis</a></li>
                                     </ul>
                                     <header>
-                                    <h1> Stilla inn Kerf</h1>
+                                    <h3> Stilla inn Kerf</h3>
                                     </header>
                                     <p>
                                     Ein besta leiðinn til þess að stilla in Kerf í Fusion er að offsetta allt í einu. Það er gert með því að fara í "Manufacture" inn í Fusion. Búa til nýtt Setup. Velja operation "Cutting" og velja modelið. Þegar það er komið þá þarf að búa til 2D model. Þá þarf að velja tool og við búum til laser skera sem er með okkar kerfi. Sjá stillingar hér fyrir neðan. Í 2D profile þá þarf að fara í geometry og velja face contours og velja alla íhluti. Þegar það er komið þá býr Fusion til toolpath fyrir laser skurðinn út frá kerfinu. Þá þarf að exporta úr Fusion og það er gert með NC Program og má sjá stillingar fyrir það hér fyrir neðan.
@@ -218,10 +218,62 @@
                                         </div>
 									</div>
 								    </div>
+                                    <header>
+                                        <h2> 3. Inkscape </h2>
+                                    </header>
                                     <p>
-                                    
+                                    Þegar .dxf file er kominn úr Fusion þá þarf að opna hann í Inkscape. Þegar þú opnar Inkscape er gott að fera cmd+shift+D og þá færðu blaðsíðu stillingar. Þar sem við höfum plötu sem er 500x500 mm þá stillum við blaðið þannig. Því næst er að fara í Import og velja .dxf fileinn okkar. Þá er að stilla því upp á blaðsíðunni, velja allt og fara í "Stroke style" og gera Width: 0.020 mm. Þá er gott að fara í view og velja display mode outline til þess að sjá hlutina. Þá er bara að vista og setja á USB lykil og setja hann í tölvuna sem er tengd við laserskerann. Þegar þangað er komið þá er skráinn opnuð og gert ctrl+P og stillt eftir því hvaða efni er notað eins og sjá má hér fyrir neðan. Gott er að gera prófanir fyrir prent, ég prófaði með því að prenta 2 litla fætur til að prófa mig áfram með Kerfið. Þá er bara að setja saman hlutinn.
                                     </p>
-								</div>
+                                    <div class="row">
+                                    <div class="col-4 col-12-medium">
+				                        <h3>Stilla Page settings</h3>
+								        <p>
+                                        <span class="image main"><img src="images/pagesettings.png" alt="" /></span>       </p>
+								    </div>
+								    <div class="col-4 col-12-medium">
+                                        <h3>Importa .dxf file</h3>
+								        <p>
+                                        <span class="image main"><img src="images/komidiinkscape.png" alt="" /></span>
+                                        </p>
+								    </div>
+								    <div class="col-4 col-12-medium">
+                                        <h3>Breyta Stroke Style</h3>
+								        <p>
+                                        <span class="image main"><img src="images/strokestyle.png" alt="" /></span>
+                                        </p>
+                                         <div class="row">
+                                        </div>
+									</div>
+								    </div>
+                                    <div class="row">
+                                    <div class="col-4 col-12-medium">
+				                        <h3>Stilla view</h3>
+								        <p>
+                                        <span class="image main"><img src="images/view.png" alt="" /></span>       </p>
+								    </div>
+								    <div class="col-4 col-12-medium">
+                                        <h3>Acryl stillingar fyrir laser</h3>
+								        <p>
+                                        <span class="image main"><img src="images/stillingarlaser.jpeg" alt="" /></span>
+                                        </p>
+								    </div>
+								    <div class="col-4 col-12-medium">
+                                        <h3>Tilbúið</h3>
+								        <p>
+                                        <span class="image main"><img src="images/IMG_5232.jpeg" alt="" /></span>
+                                        </p>
+                                         <div class="row">
+                                        </div>
+									</div>
+								    </div>
+                                    <header>
+                                    <h2>Samantekt</h2>
+                                    </header>
+                                    <p>Verkefnið gekk vel. Teikning tók u.þ.b. 2 tíma og svo tók um 5 tíma að prenta og prófa prentarann. Það sem hefði betur mátt fara er það að ég prófaði á glærum acryl afgöngum og þá passaði allt þétt saman en svarta acryl platan sem ég prentaði úr var ekki 3 mm á þykkt heldur 2.7 mm svo nokkur skekkja er á vínstandinum. Hann virkar samt mjög vel en ég myndi samt mæla plötuna ef ég væri að prenta aftur.</p>
+								<ul class="actions">
+								<li><a href="H%C3%B6nnunarskr%C3%A1r%20-%20Laser.zip" class="button icon solid fa-download">Hönnunarskrár</a></li>
+								</ul>
+                                </div>
 							</section>
 					</div>
 				<!-- Footer -->
